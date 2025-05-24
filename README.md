@@ -1,88 +1,77 @@
-# 👨‍⚖️ SCHEIDOMAT – Die digitale Scheidungsplattform
+# 👨‍⚖️ SCHEIDOMAT – Übersicht
 
-Willkommen beim **SCHEIDOMAT**, der modernen Weblösung zur rechtssicheren, effizienten und verbindlichen Abwicklung von Scheidungsverfahren. Diese Plattform wurde gemeinsam mit juristischen Experten entwickelt und vereint Benutzerfreundlichkeit, Datenschutz und professionelle Kommunikation zwischen Mandanten und Kanzlei.
+Willkommen bei **SCHEIDOMAT**, dem digitalen Wegbereiter für die moderne und rechtssichere Online-Scheidung.
 
----
-
-## 🎯 Zielsetzung
-
-> *“Automatisierung trifft auf Rechtsklarheit”*
-> **SCHEIDOMAT** bietet eine elegante, durchdachte Plattform für Anwälte, die ihren Mandanten eine digitale Scheidung mit allen rechtlichen Formalitäten anbieten wollen – kontaktlos, effizient und DSGVO-konform.
+> 🏛️ *Ein Projekt initiiert durch Rechtsanwalt Gaussmann – umgesetzt mit moderner Webtechnologie für höchste Effizienz, Transparenz und Mandantenkomfort.*
 
 ---
 
-## 🧩 Features (geplant und umgesetzt)
+## 📌 Was ist der SCHEIDOMAT?
 
-* ⚙️ **Individuelle Mandatsformulare** – dynamisch generiert
-* 📨 **Mandanten-Kommunikation** – verschlüsselt und revisionssicher
-* 📄 **Upload legaler Dokumente** (z. B. Ehevertrag, Geburtsurkunden)
-* 📆 **Fallübersicht und Timeline-Tracking** für Mandanten
-* 🧾 **Automatisierte Dokumentenvorbereitung** (PDF-Export)
-* 💬 **Chatfunktion** mit Kanzlei-Team (optional)
-* 🔐 **Mandanten-Loginbereich** mit Statusanzeige
+Der **SCHEIDOMAT** ist eine Web-Anwendung zur digitalen Einreichung und Abwicklung von Scheidungsangelegenheiten. Ziel ist es, den bürokratischen Aufwand für Mandanten und Kanzleien zu minimieren und dabei höchste juristische Standards zu gewährleisten.
 
 ---
 
-## 🧱 Tech-Stack
+## ⚙️ Technologische Grundlage
 
-| Layer             | Technologie                               |
-| ----------------- | ----------------------------------------- |
-| Frontend          | Tailwind CSS, HTML5, Alpine.js (optional) |
-| Backend           | Django (REST + Admin)                     |
-| Authentifizierung | Django Allauth / JWT                      |
-| PDF-Generierung   | WeasyPrint / ReportLab                    |
-| Deployment        | Docker + Plesk / Vercel / Netlify         |
-| Hosting           | Plesk, GitHub Pages (Frontend-only)       |
+Diese Lösung wird aktuell als **Fullstack-Anwendung** mit folgenden Technologien umgesetzt:
+
+* 🐍 **Django** – Sicheres und bewährtes Backend-Framework
+* 💨 **Tailwind CSS** – Modernes, responsives Designsystem
+* 🔐 **Datenschutzkonform** – DSGVO als Standard
+* 🌐 **Self-Hosted oder Cloudfähig** – Für Kanzleien skalierbar & individuell betreibbar
 
 ---
 
-## 📂 Projektstruktur (Ausschnitt)
+## 🧱 Projektmodule (geplant)
 
-```
-scheidomat/
-├── backend/
-│   ├── scheidomat_core/      # Django-Projektkern
-│   ├── mandanten/            # App zur Mandantenverwaltung
-│   ├── scheidungsprozess/    # Ablauf & Statusmodelle
-│   └── templates/            # HTML-Templates für Admin/Frontend
-├── frontend/
-│   └── tailwind/             # Tailwind UI Templates
-├── media/                    # Hochgeladene Dokumente
-├── docker-compose.yml        # Containerverwaltung
-└── README.md
-```
+| Modul                  | Beschreibung                                                        |
+| ---------------------- | ------------------------------------------------------------------- |
+| 📝 Antragseinreichung  | Interaktives Formular zur Eingabe aller notwendigen Scheidungsdaten |
+| 👥 Mandantenbereich    | Login-basierter Bereich zur Statusverfolgung                        |
+| 📄 Dokumentengenerator | Automatisierte Erstellung aller Schriftsätze                        |
+| 📬 Kommunikation       | Sichere Upload- und Nachrichtensysteme                              |
+| 📊 Admin Panel         | Kanzleisteuerung, Aktenverwaltung, Export-Funktionen                |
 
 ---
 
-## 📜 Lizenzierung
+## 📦 Lizenzmodell
 
-**SCHEIDOMAT** wird exklusiv an Anwaltskanzleien lizenziert.
-Interessierte Kanzleien wenden sich bitte über das Kontaktformular der offiziellen Projektseite oder direkt per Mail an den Vertrieb.
+Dieses Projekt wird modular aufgebaut und steht Kanzleien nach Erwerb einer Lizenz zur Verfügung.
 
-🛡️ **Code-Lizenz:** Eigenentwickelte Komponenten unterliegen dem Urheberrecht.
-📄 **Nutzungsrechte:** Exklusivlizenz für Initiatoren und Vertriebspartner.
+### 💼 Für Interessenten:
 
----
+* **Backend-Lizenz**: 2.500 € *(einmalig)*
+* **Frontend-Individualisierung**: ab 1.500 €
+* **Optionale Module**: auf Anfrage
+* **SEO, Logo, Hosting-Support**: individuell verhandelbar
 
-## 🤝 Mitwirken
-
-Die Plattform wird weiterentwickelt. Feedback von Jurist\:innen, Kanzlei-IT und Mandanten ist willkommen.
-➡️ Pull Requests und Issues gerne über [GitHub](https://github.com/SCHEIDOMAT) einreichen.
+> 🤝 *Vertriebspartner erhalten Provision (7 %) pro erfolgreichem Mandantenkontakt oder Kanzleiverkauf.*
 
 ---
 
-## 👤 Autor & Initiator
+## 🔗 Organisation & Repos
 
-**Technische Entwicklung & Konzeption:** [Obscuras Media Agency](https://github.com/obscuras)
-**Juristische Initiative:** RA Gaussmann, Kanzlei Gaussmann & Partner
-
----
-
-## 📧 Kontakt
-
-📮 **E-Mail:** [kontakt@scheidomat.de](mailto:kontakt@scheidomat.de) *(Platzhalter)*
-🌐 **Web:** [www.scheidomat.de](http://www.scheidomat.de) *(in Entwicklung)*
+* 🌐 [Organisation auf GitHub](https://github.com/SCHEIDOMAT)
+* 📁 [Projektübersicht – overview](https://github.com/SCHEIDOMAT/overview)
+* 🏗️ Weitere Repositories folgen...
 
 ---
 
-Danke für dein Interesse am SCHEIDOMAT – wir digitalisieren die Justiz, Schritt für Schritt. ⚖️✨
+## 🧠 Inspiration & Philosophie
+
+> *„Wenn Digitalisierung helfen kann, den emotionalen und administrativen Aufwand einer Trennung zu erleichtern, dann sollten wir sie nutzen.“*
+
+Das Projekt **Scheidomat** steht für Klarheit, Struktur und Respekt gegenüber allen Beteiligten.
+
+---
+
+## 🛠 Status
+
+> 🚧 **In Entwicklung (Phase: MVP)** – voraussichtliche Testfreigabe: *Q3/2025*
+
+Bleib gespannt – und wenn du mitwirken willst, melde dich gern!
+
+---
+
+© 2025 – SCHEIDOMAT Initiative | Code: Open Dev Lizenz | Konzept: RA Gaussmann
