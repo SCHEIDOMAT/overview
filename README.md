@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/images/scheidomat_logo.png" alt="Scheidomat Logo" width="100%"/>
+</p>
 # 👨‍⚖️ SCHEIDOMAT – Übersicht
 
 Willkommen bei **SCHEIDOMAT**, dem digitalen Wegbereiter für die moderne und rechtssichere Online-Scheidung.
