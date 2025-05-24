@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/images/scheidomat_logo.png" alt="Scheidomat Logo" width="100%"/>
+  <img src="/assets/images/scheidomat_logo.png" alt="Scheidomat Logo" width="100%"/>
 </p>
 # 👨‍⚖️ SCHEIDOMAT – Übersicht
 
