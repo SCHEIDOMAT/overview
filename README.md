@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="https://github.com/SCHEIDOMAT/overview/blob/main/assets/images/schidomat_logo.png" alt="Scheidomat Logo" width="50%"/>
-</p>
 # 👨‍⚖️ SCHEIDOMAT – Übersicht
-
+<p align="center">
+  <img src="https://github.com/SCHEIDOMAT/overview/blob/main/assets/images/schidomat_logo.png" alt="SCHEIDOMAT Logo" width="50%"/>
+</p>
 Willkommen bei **SCHEIDOMAT**, dem digitalen Wegbereiter für die moderne und rechtssichere Online-Scheidung.
 
 > 🏛️ *Ein Projekt initiiert durch Rechtsanwalt Gaussmann – umgesetzt mit moderner Webtechnologie für höchste Effizienz, Transparenz und Mandantenkomfort.*
